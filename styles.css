@@ -53,9 +53,15 @@ main { max-width: 1040px; margin: 0 auto; padding: 0 16px 48px; }
 }
 .card:hover, .card:focus-visible { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(0,0,0,.12); }
 .card-emoji { font-size: 2.4rem; line-height: 1; }
-.card h2 { font-size: 1.2rem; margin: 8px 0 0; }
+.card h3 { font-size: 1.2rem; margin: 8px 0 0; }
 .card p { margin: 0; color: var(--muted); font-size: .95rem; flex: 1; }
 .card-cta { color: var(--accent); font-weight: 600; font-size: .9rem; margin-top: 8px; }
+
+.jump { margin-top: 16px; font-size: .95rem; color: var(--muted); }
+.jump a { color: var(--text); font-weight: 600; }
+.group { padding-top: 24px; }
+.group > h2 { font-size: 1.6rem; margin-bottom: 4px; }
+.group-sub { color: var(--muted); margin: 0 0 16px; }
 
 /* Sport page */
 .crumbs { padding: 4px 0 8px; }
