@@ -37,10 +37,6 @@ main { max-width: 1040px; margin: 0 auto; padding: 0 16px 48px; }
   display: flex; align-items: center; justify-content: space-between;
 }
 .brand { font-weight: 700; text-decoration: none; font-size: 1.05rem; }
-.theme-toggle {
-  background: var(--surface); color: var(--text); border: 1px solid var(--border);
-  border-radius: 999px; width: 38px; height: 38px; font-size: 1.1rem; cursor: pointer;
-}
 .site-footer { text-align: center; color: var(--muted); font-size: .9rem; padding: 24px 16px 40px; border-top: 1px solid var(--border); }
 
 /* Home */

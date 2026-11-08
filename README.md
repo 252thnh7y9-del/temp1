@@ -1,24 +1,13 @@
 # Sports for Non-Sports People
 
-A static website that explains the major sports in plain English. The homepage lists each sport, and each sport has its own page with:
+A fully static website (plain HTML and CSS, no JavaScript, no build step) that explains the major sports in plain English. It's ready to host on GitHub Pages.
 
-- a description of the sport
-- the basic rules
-- major leagues and competitions
-- famous teams (or big events)
-- famous players
-- lingo and a "sound smart at a party" line
+- `index.html`: the homepage, listing every sport
+- `sports/*.html`: one page per sport, with a description, basic rules, major leagues, famous teams and players, and common lingo
+- `styles.css`: shared styling (dark mode follows your device setting)
 
-## Viewing
+To edit content, open the sport's HTML file and change the text directly. To add a sport, copy an existing page in `sports/`, edit it, and add a card for it in `index.html`.
 
-Open `index.html` in a browser, or serve the folder with any static host (for example GitHub Pages). There is no build step needed to view it.
+## Publishing on GitHub Pages
 
-## Editing content
-
-All sport content lives in the `SPORTS` list in `build.py`. After editing it, regenerate the pages:
-
-```sh
-python3 build.py
-```
-
-This rewrites `index.html` and `sports/*.html`. Styling is in `styles.css`.
+In the repository, go to **Settings → Pages**, choose **Deploy from a branch**, and pick the branch and the `/ (root)` folder.
