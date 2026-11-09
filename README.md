@@ -6,7 +6,7 @@ A fully static website (plain HTML and CSS, no JavaScript, no build step) that e
 - `sports/*.html`: one page per sport, with a description, basic rules, major leagues, famous teams and players, and common lingo
 - `styles.css`: shared styling (dark mode follows your device setting)
 
-To edit content, open the sport's HTML file and change the text directly. To add a sport, copy an existing page in `sports/`, edit it, and add a card for it in the right section of `index.html` ("The big ones", "Around the world" or "College sports").
+To edit content, open the sport's HTML file and change the text directly. To add a sport, copy an existing page in `sports/`, edit it, and add a card for it in the right section of `index.html` ("The big ones", "Around the world", "College sports", "Winter Olympics" or "Summer Olympics").
 
 ## Publishing on GitHub Pages
 
